@@ -8,15 +8,11 @@ thead th:nth-child(1) {
 }
 
 thead th:nth-child(2) {
-  width: 28%;
+  width: 42%;
 }
 
 thead th:nth-child(3) {
-  width: 28%;
-}
-
-thead th:nth-child(4) {
-  width: 28%;
+  width: 42%;
 }
 
 th,
@@ -41,20 +37,23 @@ td.time {
 td.break {
   background-color: #fdf9e0;
 }
+
 td.alt-pres {
   background-color: #ddc3e0;
 }
+
 td.pgr-pres {
   background-color: #ffddd3;
 }
+
 td.social {
   background-color: #b2e3d0;
 }
+
 td.careers {
   background-color: #bad5f0;
 }
 
-/* Hack for end time */
-tbody tr:nth-last-child(2) td:last-child {
-  background: linear-gradient(to bottom, #ffddd3 50%, #d4dde3 0%);
+td.empty {
+  background-color: #d4dde3;
 }
