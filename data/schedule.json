@@ -63,18 +63,16 @@
       ]
     ]
   },
-  "slotIDmap": {
-    "D0T1": "Wednesday 10th June, 9:30",
-    "D0T2": "Wednesday 10th June, 11:00",
-    "D0T3": "Wednesday 10th June, 11:30",
-    "D0T4": "Wednesday 10th June, 13:00",
-    "D0T5": "Wednesday 10th June, 13:30",
-    "D0T6": "Wednesday 10th June, 14:00",
-    "D0TP": "Wednesday 10th June, 14:30",
-    "D0TS": "Wednesday 10th June, 16:00",
-    "D1T1": "Thursday 11th June, 9:30",
-    "D1T2": "Thursday 11th June, 11:00",
-    "D1T3": "Thursday 11th June, 11:30",
-    "D1T4": "Thursday 11th June, 13:00"
-  }
+"slotIDmap": {
+  "D0T1": "Wednesday 10th June, 9:30",
+  "D0T3": "Wednesday 10th June, 11:00",
+  "D0T4": "Wednesday 10th June, 11:30",
+  "D0T6": "Wednesday 10th June, 13:00",
+  "D0T7": "Wednesday 10th June, 13:30",
+  "D0T8": "Wednesday 10th June, 14:00",
+  "D0TP": "Wednesday 10th June, 14:30",
+  "D1T1": "Thursday 11th June, 9:30",
+  "D1T3": "Thursday 11th June, 11:00",
+  "D1T4": "Thursday 11th June, 11:30"
+}
 }
