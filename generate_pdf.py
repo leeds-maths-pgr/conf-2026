@@ -1,8 +1,11 @@
 import json
+import os
 from fpdf import FPDF
 
-with open("./data/all_speakers.json", "r", encoding='utf-8') as f:
+with open("./data/all_speakers.json", "r", encoding="utf-8") as f:
     data = json.load(f)
+
+os.makedirs("static/files", exist_ok=True)
 
 pdf = FPDF()
 pdf.add_font("rob", "", "Roboto-Regular.ttf")
@@ -15,8 +18,10 @@ pdf.set_font("rob", "B", 16)
 pdf.cell(0, 10, "Speakers List", ln=True, align="C")
 
 pdf.set_font("rob", size=12)
-for speaker in sorted(data["speakers"], key = lambda s: s["name"]):
+
+for speaker in sorted(data["speakers"], key=lambda s: s["name"]):
     pdf.ln(5)
+
     pdf.set_font("rob", "B", 14)
     pdf.cell(0, 10, speaker["name"], ln=True)
 
@@ -24,8 +29,10 @@ for speaker in sorted(data["speakers"], key = lambda s: s["name"]):
     pdf.multi_cell(0, 5, speaker["title"])
     pdf.ln(5)
 
-    pdf.set_font("rob", size=12)
-    pdf.multi_cell(0, 5, speaker.get("abstract", ""))
-    pdf.ln(5)
+    abstract = speaker.get("abstract", "")
+    if abstract:
+        pdf.set_font("rob", size=12)
+        pdf.multi_cell(0, 5, abstract)
+        pdf.ln(5)
 
-pdf.output("static/files/SoMPGR2025_abstracts.pdf")
+pdf.output("static/files/SoMPGR2026_abstracts.pdf")
