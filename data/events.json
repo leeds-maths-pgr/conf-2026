@@ -58,12 +58,12 @@
       "display": "Coffee break + Posters",
       "type": "social",
       "format": "multi-speaker",
-      "speakerlist": [
-        "Filippa Lo Biundo",
-        "Laila Alqarafi",
-        "Nora Gavrea",
-        "Chengxin Li"
-      ]
+     "speakerlist": [
+  "flb-poster",
+  "la",
+  "ng",
+  "cl"
+]
     }
   }
 }
