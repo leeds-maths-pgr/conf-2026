@@ -21,25 +21,28 @@
       "title": "What to expect and what to avoid after a PhD thesis"
     },
     {
-      "id": "flb",
-      "name": "Filippa Lo Biundo",
-      "title": "Pansu pullback and differential complexes on Carnot groups"
-    },
+  "id": "flb",
+  "name": "Filippa Lo Biundo",
+  "title": "Pansu pullback and differential complexes on Carnot groups",
+  "abstract": "In sub-Riemannian geometry, Carnot groups play a role analogous to that of Euclidean spaces in the Riemannian setting. Their special structure allows one to define an intrinsic notion of differentiability, namely Pansu differentiability, which in turn gives rise to the Pansu pullback on differential forms. A natural question is whether this pullback commutes with the differentials of the main complexes associated with Carnot groups. In this talk, I will exhibit counterexamples to this commutativity for the de Rham complex and the Rumin complex, the latter being specifically adapted to the geometric structure of Carnot groups. I will then turn to a recently introduced family of complexes, the spectral complexes associated with the de Rham complex, and explain how, in this setting, the Pansu pullback does commute with the corresponding differentials."
+},
     {
-      "id": "bp",
-      "name": "Blake Pehrson",
-      "title": "Convergence to Schramm-Loewner-Evolution by particle aggregation"
-    },
+  "id": "bp",
+  "name": "Blake Pehrson",
+  "title": "Convergence to Schramm-Loewner-Evolution by particle aggregation",
+  "abstract": "Using pictures and physical intuition, we introduce Schramm-Loewner-Evolution (SLE) as a random path in a simply connected domain and discuss how the process arises as a scaling limit of particle aggregation."
+},
     {
       "id": "lg",
       "name": "Lenny Greenfield",
       "title": "Orbits on Graph Colourings"
     },
     {
-      "id": "fm",
-      "name": "Fernando Mendez",
-      "title": "Left-symmetric algebra structures on Lie algebras"
-    },
+  "id": "fm",
+  "name": "Fernando Mendez",
+  "title": "Left-symmetric algebra structures on Lie algebras",
+  "abstract": "The study of left-symmetric structures has been a very active line of research, which has proved to have remarkable applications in other areas of mathematics such as geometry and mathematical physics. These structures received substantial attention in 1977 when John Milnor formulated the following question: Does every solvable Lie algebra admit a complete left-symmetric structure?\n\nIn this talk, we give an introduction to left-symmetric structures and present some basic properties. If time permits, we will present some recent results relating these structures to symplectic and contact structures on Lie algebras."
+},
     {
       "id": "ar",
       "name": "Andrew Roberts",
