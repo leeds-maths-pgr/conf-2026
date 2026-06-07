@@ -1,6 +1,6 @@
 {{ define "main" }} {{ $speakers := $.Site.Data.all_speakers.speakers}}
 <section class="content">
-  <a href="{{.Site.BaseURL}}/files/SoMPGR2025_abstracts.pdf" download
+  <a href="{{.Site.BaseURL}}/files/SoMPGR2026_abstracts.pdf" download
     ><button>Download all abstracts</button></a
   >
   <br />
@@ -14,14 +14,14 @@
   <h1>Abstracts</h1>
   {{ .Content }} {{ range sort $speakers "name" }} {{ if not .abstract }}
   <h4 id="{{ .id }}">
-    <a href="/conf-2025/schedule#{{ .id }}">{{ .name }}</a>
+    <a href="/conf-2026/schedule#{{ .id }}">{{ .name }}</a>
   </h4>
   <span class="poster-title">
     <div>{{.title}}</div>
   </span>
   {{ else }}
   <h4 id="{{ .id }}">
-    <a href="/conf-2025/schedule#{{ .id }}">{{ .name }}</a>
+    <a href="/conf-2026/schedule#{{ .id }}">{{ .name }}</a>
   </h4>
   <details class="abstract">
     <summary>{{.title}}</summary>
@@ -38,7 +38,9 @@
     console.log(hash);
     if (hash) {
       const target = document.querySelector("#" + hash + "+ details");
-      target.setAttribute("open", "");
+      if (target) {
+        target.setAttribute("open", "");
+      }
     }
   });
 </script>
