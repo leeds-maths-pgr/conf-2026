@@ -2,17 +2,16 @@
 title: Home
 ---
 
-The School of Mathematics of the University of Leeds is proud to host its annual conference specially for the postgraduate researchers, bringing together PGRs across all groups and years to:
+The School of Mathematics at the University of Leeds is proud to host its annual conference for postgraduate researchers, bringing together PGRs across all groups and years to:
 
-- foster understanding of what other people in the School of Maths are doing;
-- strengthen the community within the School of Maths; and
-- remind ourselves that there is (much) more to life than research!
+- foster understanding of the research taking place across the School of Mathematics;
+- strengthen the postgraduate research community within the School; and
+- provide an opportunity to share ideas, discuss research, and meet other PGRs.
 
-This year's conference will be held in the **MALL** from **Monday 30th June to Wednesday 2nd July 2025**.
+This year's conference will be held from **Wednesday 10th June to Thursday 11th June 2026**. The main conference sessions will take place in the **MALL**, with lunch and the social event taking place in the **MRD open area**.
 
-Participants can give a talk and/or present a poster: fascinating talks will be scattered over the three days and posters will be appreciated along with cheese and wine. Plus, there will be two prizes awarded to the best talks and posters respectively, and the winner can choose their preferred reward from various vouchers.
-We welcome [submissions](./call_for_speakers) from all PGRs in the School of Mathematics!
+The programme will include PGR talks, a poster session, plenary talks, and career-related sessions, with contributions from PGR students and invited speakers from across the School.
 
-Apart from the PGR talks and posters, we also have an exciting line-up of events and activities planned, including invited talks by Katie ([MathsCity](https://mathscity.co.uk/)), academic and non-academic career sessions, and a pub quiz.
+Breakfast, coffee breaks, and lunch will be provided during the conference. We also plan to hold an informal social event on Wednesday afternoon/evening with pizza and drinks, giving attendees the chance to chat and engage with each other after the main sessions.
 
-Lastly we would like to remind you that breakfast and lunch will be provided. Do come and join us if you are around and we look forward to seeing you at the 2025 SoM PGR Conference!
+We look forward to seeing many of you at the **2026 SoM PGR Conference**!
