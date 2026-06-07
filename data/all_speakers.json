@@ -1,172 +1,69 @@
 {
   "speakers": [
     {
-      "id": "crs",
-      "name": "Calliope Ryan-Smith",
-      "title": "The Axiom of Choice",
-      "abstract": "We present a brief history of the axiom of choice, pathologies that can arise when it is rejected, and pathologies that can arise when it is accepted."
+      "id": "ft",
+      "name": "Francesca Tripaldi",
+      "title": "SubRiemannian geometry in real life: how to parallel park your car"
     },
     {
-      "id": "mk",
-      "name": "Moses Kargbo",
-      "title": "Modelling and Stochastic Simulation of Supply Chains",
-      "abstract": "Supply chains are networks of three or more organizations or individuals that manage the flow of goods, information, and services from the source to the customer. Drawing from the principles of stochastic reaction networks, we model supply chains using the Logistic Leap (L-leap) algorithm, an extension of the Delayed Leap (D-leap) algorithm, designed to handle delays in supply chain processes such as manufacturing, transportation, and logistics. Our approach incorporates both instantaneous consumption and delayed production to simulate stochastic push systems. We apply the method to two case studies: a five-process manufacturing supply chain and the import of rare-earth metals into the UK via maritime chokepoints. The results provide insights into inventory dynamics, time-step effects, and congestion impacts, offering a robust framework for simulating complex supply chain behaviours under uncertainty."
+      "id": "ak",
+      "name": "Asaf Karagila",
+      "title": "Academic CV writing"
     },
     {
-      "id": "sps",
-      "name": "Shaurya Pratap Singh",
-      "title": "Stochastic Modeling of Drug-Inactivating Microbial Population(s) Under Environmental and Demographic Noise",
-      "abstract": "Antimicrobial resistance (AMR) is predicted to overtake cancer as the leading cause of death worldwide by 2050, which is why more attention is needed on how to deal with the various mechanisms involved in it. A major mechanism underpinning AMR is microbial drug inactivation, where resistant population(s) can degrade antimicrobials by releasing enzymes, making the drugs ineffective and ensuring survival even in high drug concentrations.\n\nWe develop a stochastic model to explore how environmental variability and population fragmentation affect the survival of drug-inactivating microbial populations. The model builds on enzymatic degradation dynamics from Ref[1]and the fluctuating environments studied in Ref[2], and also includes microbial growth, death, drug breakdown.\n\nWhen a microbial population consists of a single type of allele, the antibiotic concentration decreases over time because the microbes actively degrade the antibiotic using β-lactamase, according to the Michaelis-Menten kinetics, while simultaneously the microbial population also decreases due to the presence of the antimicrobial drug. The more microbes there are, and the higher the antibiotic concentration, the faster the antibiotic gets degraded. Once the antibiotic concentration \"a\" becomes less than a certain threshold value \"ath\", the drug becomes inactive and the population starts to rise again consistently. Usually, we see that fragmentation aids the survival of the population. However, due to changes in environmental conditions, as modelled by the piecewise deterministic Markov process Ref[3], the total population fluctuates between 2 values carrying capacities. Depending upon the carrying capacity values (K+,K-) and the rate of fluctuation (ν) the total fragmented populations might survive or get extinct before it reaches the point where \"a\"<\"ath\" and the population can start growing consistently.\n\nFor very high and low switching rates, we can predict whether the fragmented population will survive or die out before the point where \"a\"<\"ath\", but for intermediate switching rate we expect to find some nontrivial dynamics. We plan to study the survival of the populations for different values of switching rate, carrying capacity values, demographic noise, total population and different number of fragmented populations. This can help us in understanding some essential treatment strategies to deal with AMR and in particular drug inactivation, by combining switching environmental conditions and population fragmentation.\n\nReferences:\nVerdon, N., Popescu, O., Titmuss, S., & Allen, R. J. (2025).\nHabitat fragmentation enhances microbial collective defence.\nJournal of the Royal Society Interface, 22, 20240611.\n\nHernández-Navarro, L., Asker, M., Rucklidge, A. M., & Mobilia, M. (2023).\nCoupled environmental and demographic fluctuations shape the evolution of cooperative antimicrobial resistance.\nJournal of the Royal Society Interface, 20, 20230393.\n\nWienand, K., Frey, E., & Mobilia, M. (2017). Evolution of a fluctuating population in a randomly switching environment.\nPhysical Review Letters, 119(15), 158301"
+      "id": "mlg",
+      "name": "Martin Lopez-Garcia",
+      "title": "A journey through Mathematical Biology: Models, challenges, and perspectives"
     },
     {
-      "id": "omg",
-      "name": "Orla McGrath",
-      "title": "Deriving the Hopf Algebra Axioms",
-      "abstract": "Hopf algebras are algebras equipped with additional structure, and they arise naturally in many areas of mathematics such as the study of quantum groups or in cohomolgy. In this talk we will derive the Hopf algebra axioms by considering Hopf algebras as the representing algebras for affine group schemes. We will consider affine schemes as the vanishing set of some polynomials, and show that these are representable by some algebra (in particular, its coordinate ring) while demonstrating with a key example. Then, when our affine scheme has group structure, this is somehow reflected in the representing algebra, and this additional structure exactly gives the algebra Hopf structure."
+      "id": "sa",
+      "name": "Sadek ALHARBAT",
+      "title": "What to expect and what to avoid after a PhD thesis"
     },
     {
-      "id": "aa",
-      "name": "Abeer Almalki",
-      "title": "Poster: Two-Level Pairwise SVM Ensemble for Classification",
-      "abstract": "Motivated by the fact that medical data often contain clusters and subclusters that can affect analysis and model performance, we utilized electronic health records from the Clinical Practice Research Datalink (1998 - 2017) for adults prescribed glucocorticoids for immune-mediated inflammatory diseases. Within each of the two binary cardiovascular disease outcome classes (patients who developed CVD vs those who did not), we identified subgroups using k-means clustering.\n\nWe then implemented a hierarchical pairwise SVM ensemble by training linear-kernel, grid-searched SVMs for each pair of clusters (1, 2, …) across the two classes (a, b) e.g. (1a vs 1b, 1a vs 2b, …), with centring, scaling, and kernel PCA pre-processing.\n\nFinally, under 10-fold cross-validation, we compared the performance of this framework to random forest, XGBoost, k-nearest neighbours, illustrating its potential as a flexible approach to integrate hidden data structures into predictive modelling."
+      "id": "flb",
+      "name": "Filippa Lo Biundo",
+      "title": "Pansu pullback and differential complexes on Carnot groups"
     },
     {
-      "id": "gc",
-      "name": "Gautum Chaudhuri",
-      "title": "Poster: Dynamics of Dissolved Vortices"
+      "id": "bp",
+      "name": "Blake Pehrson",
+      "title": "Convergence to Schramm-Loewner-Evolution by particle aggregation"
+    },
+    {
+      "id": "lg",
+      "name": "Lenny Greenfield",
+      "title": "Orbits on Graph Colourings"
+    },
+    {
+      "id": "fm",
+      "name": "Fernando Mendez",
+      "title": "Left-symmetric algebra structures on Lie algebras"
     },
     {
       "id": "ar",
       "name": "Andrew Roberts",
-      "title": "Bubbling of Maps from 2 Dimensional Domains",
-      "abstract": "The Dirichlet energy of a map has the feature that it is scale invariant when the domain is 2 dimensional, this means we are able to put a fixed non 0 quantum of energy into an arbitrarily small disc. By taking sequences of maps with the size of these discs shrinking to 0 we are able to blow 'bubbles', the features of I will discuss."
+      "title": "What does it mean for a manifold to converge?"
     },
     {
-      "id": "sah",
-      "name": "Shahad Alharbi",
-      "title": "Handling Sparsity in Microbiome Data: A Tobit Model Approach",
-      "abstract": "Recent studies have demonstrated the potential of fecal microbiome profiling to enhance colorectal cancer screening by enabling earlier detection, reducing unnecessary colonoscopies, and lowering overall healthcare costs. Between 2016 and 2019, the largest hub of the NHS Bowel Cancer Screening Programme prospectively collected and processed guaiac fecal occult blood test (gFOBT) samples, which were linked to subsequent colonoscopy outcomes. DNA extracted from these samples underwent 16S rRNA gene V4 amplicon sequencing, and taxonomic profiling was performed to generate features for downstream analysis.\n\nA major challenge in microbiome data analysis is sparsity, where zeros may represent either true biological absence or undetected presence due to sequencing limitations. Many existing methods attempt to address this by imputing pseudo-counts, implicitly assuming that all zeros correspond to true absence.\n\nTo overcome this limitation, we adopt the Tobit model, treating zeros as left-censored values. We evaluated the performance of the model through simulation studies under varying censoring thresholds and sample sizes. Results indicate that while high levels of censoring introduce bias, this bias diminishes as sample size increases. Our implementation also supports flexible censoring thresholds and demonstrates improved numerical stability compared to existing R functions under conditions of extreme sparsity."
+      "id": "flb-poster",
+      "name": "Filippa Lo Biundo",
+      "title": "Poster presenter"
     },
     {
-      "id": "bds",
-      "name": "Ben De Smet",
-      "title": "An Introduction to O-minimality (abridged)"
+      "id": "la",
+      "name": "Laila Alqarafi",
+      "title": "Poster presenter"
     },
     {
-      "id": "jl",
-      "name": "Joshua Losh",
-      "title": "The Zarankiewicz Problem"
-    },
-    {
-      "id": "aam",
-      "name": "Abdullah Al Mugharrid",
-      "title": "Improving Soil Carbon Prediction with Flex Lasso: A High-Dimensional Optimization Approach",
-      "abstract": "Accurate prediction of soil total carbon (TC) is vital for sustainable land management and environmental monitoring. While Mid-Infrared (MIR) spectroscopy offers strong potential for this task, its high dimensionality and multicollinearity present major modeling challenges.\n\nWe introduce the Flexible Learning Rate Algorithm (Flex Lasso)—an enhanced Lasso regression approach optimized for high-dimensional, multicollinear datasets. By incorporating a dynamic learning rate into gradient descent, Flex Lasso improves convergence stability, model sparsity, and interpretability.\n\nFlex Lasso was evaluated on 100 simulated datasets with varying correlation structures. In simulated settings, it outperformed the widely used glmnet implementation of Lasso in terms of variable selection specificity, sparsity, and predictive stability—particularly under strong multicollinearity\n\nThese results validate Flex Lasso as a robust and reproducible method for spectral data modeling. Future work will apply the algorithm to multi-modal datasets integrating spatial, compositional, and physicochemical soil information. This work contributes a flexible statistical framework for improving data-driven soil health assessment."
-    },
-    {
-      "id": "mt",
-      "name": "Mervyn Tong",
-      "title": "What Makes a Theory Nice?",
-      "abstract": "In this talk, I will argue that you should like the rationals more as an additive abelian group than as an ordered set."
-    },
-    {
-      "id": "mtp",
-      "name": "Mervyn Tong",
-      "title": "Poster: Zarankiewicz Bounds From Distal Regularity Lemma",
-      "abstract": "Results of Fox et al and Do show that semialgebraic (hyper)graphs enjoy better bounds for the Zarankiewicz problem. We show that similarly improved bounds are enjoyed by hypergraphs satisfying the distal regularity lemma, an improvement of Szemeredi's regularity lemma that is satisfied by a large class of (hyper)graphs motivated by model theory, the study of first-order structures."
-    },
-    {
-      "id": "ml",
-      "name": "Matthew Lawrence",
-      "title": "The Magnetohydrodynamics Behind Aurorae",
-      "abstract": "Last Autumn, as we approached the solar maximum, the Aurora Borealis was visible across much of the northern hemisphere, including here in Leeds. This striking spectacle is formed from complex interactions between the magnetic fields of the Sun and the Earth. In this talk I will give an introduction to some of the rich magnetohydrodynamic phenomena that lead to the formation of aurorae: pretty pictures will be included."
-    },
-    {
-      "id": "xq",
-      "name": "Xiaoxuan Qin",
-      "title": "Characterising Passenger Contact Behaviour on Public Transport: Implications for Respiratory Disease Transmission Risk",
-      "abstract": "Purpose: This study investigates passenger contact behaviour on public transport to understand potential transmission pathways for respiratory diseases such as SARS-CoV-2. By quantifying contact patterns, seat preferences, and surface interactions, we aim to inform public health strategies for reducing infection risks in shared transit environments.\n\nMethods: Observational data were collected via CCTV footage from a single-decker bus in Newcastle, capturing daytime journeys. We analysed seat selection patterns of 257 passengers and documented surface contact behaviours of 145 passengers. Contact events were categorised by journey phase (boarding, seated, alighting), contact surface (poles, handles, headrests), hand used (left/right), and whether facial membrane contact followed. Seat preferences were analysed in relation to bus occupancy, row position, and adjacent seating status. Statistical analyses included ANOVA and LOESS regression.\n\nResults: Seat selection analysis revealed significant preferences for specific locations, with row position (p=0.00205) and window/aisle preference (p=0.01637) emerging as significant factors. At lower occupancy (<15 passengers), over 50% chose window seats and avoided sitting adjacent to others. Contact frequency varied significantly by journey phase (p<2e-16), with seated>alighting>boarding. Surface contact increased with row number, with row 7 showing the highest increase (coefficient=0.31423, p=1.37e-06). Right-side poles had the highest contact frequency, while handles were contacted less frequently. Facial membrane contacts occurred predominantly during the seated phase, with no hand preference observed for surface contacts (p=0.169).\n\nConclusion: Our findings reveal distinct patterns in passenger behaviour that could influence pathogen transmission risk on public transport. The identification of high-contact surfaces and preferred seating locations provides valuable data for targeted intervention strategies. These results are being incorporated into Quantitative Microbial Risk Assessment (QMRA) models to estimate infection risk scenarios and evaluate potential mitigation measures, contributing to safer public transport design and operation in the context of respiratory disease management."
-    },
-    {
-      "id": "vc",
-      "name": "Veronika Charpy",
-      "title": "Layering in Geophysical Fluid Dynamics",
-      "abstract": "Layering is a widespread phenomenon in geophysical fluid dynamics, characterized by the emergence of regular patterns in which thin interfaces with sharp gradients alternate with thicker, well-mixed layers. This emergence of organized mesoscale patterns from chaotic flows via up-gradient transport is characteristic of anti-diffusive phenomena. This talk will focus on two systems where layering is prominent: stirred stratified turbulence and double-diffusive convection. I will present observational and experimental motivations, followed by an introduction to the modeling of layering in these systems from the perspective of anti-diffusion."
-    },
-    {
-      "id": "sy",
-      "name": "Siyuan Yang",
-      "title": "Locally Stationary Wavelet Model for Time Series",
-      "abstract": "Wavelet analysis has been a powerful tool for Statistics. There have been many models based on wavelets developed in recent years, one of which is the locally stationary wavelet model for time series. The locally stationary wavelet model is a way to represent locally stationary time series as linear combinations of specific wavelets. By applying this model, the local properties of time series can be concentrated on and investigated."
-    },
-    {
-      "id": "ah",
-      "name": "Anna Hayward",
-      "title": "Poster: Within-Phagocyte Model of the Obligate Intracellular Pathogen Coxiella Burnetii in THP-1 Cells"
-    },
-    {
-      "id": "yn",
-      "name": "Yuri Njathi",
-      "title": "Comparative Evaluation of LSTM, Gompertz and Hybrid Models for Remaining Useful Life Prediction of LFP Batteries",
-      "abstract": "Lithium iron phosphate batteries are increasingly used in electric vehicles and energy storage systems, where reliability is critical. A major challenge is estimating the Remaining Useful Life (RUL) and State of Health (SoH), due to uncertainty in battery capacity over time. Temporal AI models like LSTMs can capture usage patterns, but their black-box nature limits trust and adoption. To address this, we explore combining LSTMs with the Gompertz model (a biologically inspired model used in growth and degradation studies) to enhance interpretability. We compare three approaches: standalone LSTM, Gompertz, and a hybrid LSTM-Gompertz model. In the hybrid, the LSTM predicts the battery's capacity fade, which is then fitted with the Gompertz model to estimate RUL. While the hybrid did not outperform the LSTM, trends observed suggest that physics-informed AI models like this hold promise for future improvement and practical adoption in critical systems."
-    },
-    {
-      "id": "lm",
-      "name": "Lorna Mugambi",
-      "title": "Self-Supervised Multi-Task Learning for RHD Classification",
-      "abstract": "Accurate rheumatic heart disease (RHD) diagnosis is a challenge due to the complex nature of echocardiographic data and the scarcity of expertly labelled datasets. This study addresses these challenges through a self-supervised multi-task learning framework (SS-MTL), in which discriminative representations are learnt from a large unlabelled echo dataset. We compared two techniques: SimCLR, a ResNet-based method, and DINOv2, which uses vision transformers. To see what they learnt, we used dimensionality reduction techniques, Uniform Manifold Approximation and Projection (UMAP) and t-distributed Stochastic Neighbor Embedding (t-SNE) on the embeddings. These showed clear, distinct clusters corresponding to different diagnostic categories.\n\nThis offers a scalable solution for automated RHD analysis, especially crucial in resource-limited settings where access to specialists is scarce. This could significantly improve RHD diagnosis and patient outcomes globally."
+      "id": "ng",
+      "name": "Nora Gavrea",
+      "title": "Poster presenter"
     },
     {
       "id": "cl",
       "name": "Chengxin Li",
-      "title": "From Microbes to Models: Challenges in Microbiome-Based Classification for Colorectal Cancer",
-      "abstract": "The gut microbiome holds significant promise for improving colorectal cancer (CRC) screening. However, leveraging microbiome data in predictive models requires addressing several analytical challenges, including data sparsity, taxonomic variability, and class imbalance. In this project, we develop and evaluate machine learning classifiers using microbiome features from CRC screening cohorts.\n\nWe compare preprocessing strategies, normalization methods, and model robustness across datasets, with a particular focus on how class imbalance affects prediction performance. By validating our classifiers on external international cohorts, we also explore the transferability of microbiome-based models across populations.\n\nThis presentation highlights the methodological hurdles in real-world microbiome data analysis and presents approaches to improve reproducibility, scalability, and generalizability in microbiome-informed clinical tools."
-    },
-    {
-      "id": "db",
-      "name": "Danny Blundell",
-      "title": "How are Pathogens Distributed in Respiratory Emissions?",
-      "abstract": "Pathogen-laden aerosols are the mechanism of choice for a myriad of airborne transmissible diseases and present a significant health risk. Much has been done to build a picture of the physics, biology, generation, and transport of these bioaerosols in the hopes of mitigating infection risk to those susceptible. However, the initial distribution of pathogens across different respiratory aerosol sizes remains unclear due to the demanding experimental. This problem is further magnified when considering the role played by evaporation in the air and the implications aerosol and droplet sizes have on the transport of the pathogens to susceptible people. A systematic review was conducted to collate data from the current literature to answer the question: \"What is the concentration of pathogens throughout the range of aerosol sizes produced in respiratory emissions?\" The review employed the framework laid out by PRISMA to identify and examine the experimental methods capable of measuring aerosol size segregation and the quantity of pathogens/microorganisms present during respiratory activities. From an initial 1247 papers, 55 papers ultimately were found to report on sampling techniques able to measure data on pathogen concentration in human exhaled breath. To quantify the pathogen concentration distribution, a meta-analysis is underway employing the newly developed pathogen load equation. The pathogen load equation combines the already researched particle size distribution with a theoretical concentration distribution to model, the pathogen load present across aerosol sizes. Initial results support the hypothesis that pathogens tend to be more concentrated in smaller aerosols and suggest that pathogens are not distributed by a constant concentration by aerosol volume. This has important implications for modelling exposure using tools such as computational fluid dynamics, as a distribution by volume is the current assumption made by most studies."
-    },
-    {
-      "id": "sb",
-      "name": "Sonny Burrell",
-      "title": "Fluid Instabilities in Radiation Zones of Stars (+ poster)",
-      "abstract": "Hydrodynamic instabilities arising in differentially rotating fluids in stellar radiative zones are studied in the presence of buoyancy forces due to both thermal and chemical composition gradients. These instabilities may lead to turbulence, which can have an impact on angular-momentum transport and chemical mixing in stars."
-    },
-    {
-      "id": "ak",
-      "name": "Atabey Kaygun",
-      "title": "Can We Summarise a Text Without Reading It?",
-      "abstract": "The linguistic at turn of the twentieth century reframed logic, mathematics, and philosophy around (formal) languages. This turn gave us powerful frameworks for syntax, semantics, and computation—from Frege and Gödel to Church and Turing. Today, we witness a new turn, a statistical turn. We now increasingly model meaning not symbolically, but statistically using patterns in data. Distributional semantics, word embeddings, and large language models strongly suggest that understanding can emerge from stochastic processes without syntactic parsing. In this talk, we survey this shift from rule-based to data-driven representations of language and intelligence, highlighting how ideas from spectral theory, matrix factorization, and probabilistic inference recast long-standing questions about meaning, knowledge, and cognition."
-    },
-    {
-      "id": "bm",
-      "name": "Benjamin Morris",
-      "title": "Poster: An Unorientable Extension of the Temperley Lieb Category"
-    },
-    {
-      "id": "dh",
-      "name": "Derek Harland",
-      "title": "Geometry and Dynamics",
-      "abstract": "I will try to explain some useful and interesting concepts in differential geometry, using the language of classical mechanics. If you don't know any differential geometry, this talk will introduce you to ideas that will help you in your future mathematical life. If you are a geometer, I hope that you pick up a fresh perspective on moduli spaces and their associated dynamics."
-    },
-    {
-      "id": "lb",
-      "name": "Leonid Bogachev",
-      "title": "On Bounded Solutions of a Balanced Pantograph Equation",
-      "abstract": "Pantograph equation is a functional-differential equation with rescaled argument of the form y'(x) = ay(qx) + by(x)\nIt was introduced by Ockendon & Tayler (1971) in connection with the dynamics of a current collection system on an electric locomotive. In fact, this equation emerged much earlier in various models, such as absorption of light in the Milky Way (Ambartsumian, 1944); as a limit of a similar functional-di erence equation in a partition problem in number theory (Mahler, 1940); and a special ruin problem in insurance (Gaver, 1964). Subsequently, the pantograph equation has appeared in numerous applications ranging from the problem of coherent states in quantum theory to cell-growth modeling in biology.\n\nKato (1971, 1972) posed a problem of existence and characterisation of bounded solutions of the pantograph equation. In this talk, I will address this problem for a balanced pantograph equation of the form y'(x) + y(x) = E[y(αx)]\nwith random α > 0 and E denoting expectation. A simple prototype example is the equation y'(x) + y(x)= (1/2)y(2x) + (1/2)y(x/2)\nwhich arises for the ruin probability f_0(x) = P_x(T_0 < ∞) in the 'double-or-half' gambling model, where x ≥ 0 is the initial capital and T0 is the random time of hitting zero. Noting that y(x) = const is a solution and that f_0(0) = 1, it would follow that f_0(x) = 1 for all x ≥ 0 if one can show that there are no non-constant (bounded) solutions.\n\nI will present three elementary proofs of this results based on perturbation, analytical, and probabilistic arguments, representing nicely the traditional organisation of British mathematics into Applied Maths, Pure Maths, and Statistics, respectively.\n\nIf time permits, I will explain a more general approach to the problem using a link with the theory of Markov processes, in that any solution of the balanced pantograph equation is a harmonic function of the associated diffusion process with multiplicative jumps"
-    },
-    {
-      "id": "is",
-      "name": "Ibraheem Sajid",
-      "title": "To Be, or Knot to Be, This Is an Introduction",
-      "abstract": "We provide a brief introduction to knot theory, aimed at all mathematicians. We'll introduce knot invariants and show how they can be used to distinguish knots. Time permitting, we'll introduce generalisations and the motion group."
-    },
-    {
-      "id": "isp",
-      "name": "Ibraheem Sajid",
-      "title": "Poster: Linear Independence of Characters of Semigroups"
+      "title": "Poster presenter"
     }
   ]
 }
