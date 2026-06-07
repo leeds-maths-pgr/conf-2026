@@ -1,101 +1,69 @@
 {
   "events": {
     "talk1": {
-      "display": "Plenary talk",
+      "display": "Plenary talk 1",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Atabey Kaygun",
-      "hasAbstract": "ak"
+      "speaker": "Francesca Tripaldi"
     },
     "talk2": {
-      "display": "Plenary talk",
+      "display": "Plenary talk 2",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Leonid Bogachev",
-      "hasAbstract": "lb"
+      "speaker": "Asaf Karagila"
     },
     "talk3": {
-      "display": "Plenary talk",
+      "display": "Plenary talk 3",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Adrian Barker"
+      "speaker": "Martin Lopez-Garcia"
     },
     "talk4": {
-      "display": "Plenary talk",
+      "display": "Plenary talk 4",
       "type": "alt-pres",
       "format": "single-speaker",
-      "speaker": "Derek Harland",
-      "hasAbstract": "dh"
-    },
-    "mathscity": {
-      "display": "MathsCity",
-      "type": "alt-pres",
-      "format": "single-speaker",
-      "speaker": "Katie Chicot"
-    },
-    "panelaca": {
-      "display": "Academic careers",
-      "type": "careers",
-      "format": "multi-speaker",
-      "speakerlist": [
-        "Andrei Igoshev",
-        "Linden Disney-Hogg",
-        "Rukia Nuermaimaiti"
-      ]
-    },
-    "panelnon": {
-      "display": "Non-Academic careers",
-      "type": "careers",
-      "format": "multi-speaker",
-      "speakerlist": ["Ibraheem Sajid", "Rob Dymott"]
+      "speaker": "Sadek ALHARBAT"
     },
     "pgr1": {
-      "display": "PGR talks 1",
+      "display": "PGR talk 1",
       "type": "pgr-pres",
-      "format": "multi-speaker",
-      "speakerlist": ["mk", "sy", "db"]
+      "format": "single-speaker",
+      "speaker": "Filippa Lo Biundo"
     },
     "pgr2": {
-      "display": "PGR talks 2",
+      "display": "PGR talk 2",
       "type": "pgr-pres",
-      "format": "multi-speaker",
-      "speakerlist": ["aam", "ar"]
+      "format": "single-speaker",
+      "speaker": "Blake Pehrson"
     },
     "pgr3": {
-      "display": "PGR talks 3",
+      "display": "PGR talk 3",
       "type": "pgr-pres",
-      "format": "multi-speaker",
-      "speakerlist": ["mt", "omg", "sah"]
+      "format": "single-speaker",
+      "speaker": "Lenny Greenfield"
     },
     "pgr4": {
-      "display": "PGR talks 4",
+      "display": "PGR talk 4",
       "type": "pgr-pres",
-      "format": "multi-speaker",
-      "speakerlist": ["yn", "xq", "bds"]
+      "format": "single-speaker",
+      "speaker": "Fernando Mendez"
     },
     "pgr5": {
-      "display": "PGR talks 5",
+      "display": "PGR talk 5",
       "type": "pgr-pres",
-      "format": "multi-speaker",
-      "speakerlist": ["lm", "ml", "crs"]
-    },
-    "pgr6": {
-      "display": "PGR talks 6",
-      "type": "pgr-pres",
-      "format": "multi-speaker",
-      "speakerlist": ["sb", "vc", "sps", "jl"]
-    },
-    "pgrfinal": {
-      "display": "Final PGR talks, Closing + Awards",
-      "type": "pgr-pres",
-      "format": "multi-speaker",
-      "speakerlist": ["cl", "is"]
+      "format": "single-speaker",
+      "speaker": "Andrew Roberts"
     },
     "pgrp": {
-      "display": "Posters + Cheese & Wine [RR]",
-      "type": "pgr-pres",
+      "display": "Coffee break + Posters",
+      "type": "social",
       "format": "multi-speaker",
-      "speakerlist": ["aa", "gc", "mtp", "ah", "db", "sb", "bm", "isp"]
+      "speakerlist": [
+        "Filippa Lo Biundo",
+        "Laila Alqarafi",
+        "Nora Gavrea",
+        "Chengxin Li"
+      ]
     }
   }
 }
