@@ -1,0 +1,45 @@
+{{ define "main" }} {{ $speakers := $.Site.Data.all_speakers.speakers}}
+<section class="content">
+  <a href="{{.Site.BaseURL}}/files/SoMPGR2025_abstracts.pdf" download
+    ><button>Download all abstracts</button></a
+  >
+  <br />
+  <br />
+  <p class="pink">Click on names to view times</p>
+  <details>
+    <summary>Click on arrows to view abstracts</summary>
+    (╯°□°)╯︵ ┻━┻
+  </details>
+  <br />
+  <h1>Abstracts</h1>
+  {{ .Content }} {{ range sort $speakers "name" }} {{ if not .abstract }}
+  <h4 id="{{ .id }}">
+    <a href="/conf-2025/schedule#{{ .id }}">{{ .name }}</a>
+  </h4>
+  <span class="poster-title">
+    <div>{{.title}}</div>
+  </span>
+  {{ else }}
+  <h4 id="{{ .id }}">
+    <a href="/conf-2025/schedule#{{ .id }}">{{ .name }}</a>
+  </h4>
+  <details class="abstract">
+    <summary>{{.title}}</summary>
+    <div>{{ .abstract }}</div>
+  </details>
+  {{ end }}
+  <br />
+  {{ end }}
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const hash = window.location.hash.substring(1);
+    console.log(hash);
+    if (hash) {
+      const target = document.querySelector("#" + hash + "+ details");
+      target.setAttribute("open", "");
+    }
+  });
+</script>
+{{ end }}

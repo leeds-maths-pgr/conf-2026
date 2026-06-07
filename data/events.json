@@ -1,0 +1,101 @@
+{
+  "events": {
+    "talk1": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Atabey Kaygun",
+      "hasAbstract": "ak"
+    },
+    "talk2": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Leonid Bogachev",
+      "hasAbstract": "lb"
+    },
+    "talk3": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Adrian Barker"
+    },
+    "talk4": {
+      "display": "Plenary talk",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Derek Harland",
+      "hasAbstract": "dh"
+    },
+    "mathscity": {
+      "display": "MathsCity",
+      "type": "alt-pres",
+      "format": "single-speaker",
+      "speaker": "Katie Chicot"
+    },
+    "panelaca": {
+      "display": "Academic careers",
+      "type": "careers",
+      "format": "multi-speaker",
+      "speakerlist": [
+        "Andrei Igoshev",
+        "Linden Disney-Hogg",
+        "Rukia Nuermaimaiti"
+      ]
+    },
+    "panelnon": {
+      "display": "Non-Academic careers",
+      "type": "careers",
+      "format": "multi-speaker",
+      "speakerlist": ["Ibraheem Sajid", "Rob Dymott"]
+    },
+    "pgr1": {
+      "display": "PGR talks 1",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["mk", "sy", "db"]
+    },
+    "pgr2": {
+      "display": "PGR talks 2",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["aam", "ar"]
+    },
+    "pgr3": {
+      "display": "PGR talks 3",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["mt", "omg", "sah"]
+    },
+    "pgr4": {
+      "display": "PGR talks 4",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["yn", "xq", "bds"]
+    },
+    "pgr5": {
+      "display": "PGR talks 5",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["lm", "ml", "crs"]
+    },
+    "pgr6": {
+      "display": "PGR talks 6",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["sb", "vc", "sps", "jl"]
+    },
+    "pgrfinal": {
+      "display": "Final PGR talks, Closing + Awards",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["cl", "is"]
+    },
+    "pgrp": {
+      "display": "Posters + Cheese & Wine [RR]",
+      "type": "pgr-pres",
+      "format": "multi-speaker",
+      "speakerlist": ["aa", "gc", "mtp", "ah", "db", "sb", "bm", "isp"]
+    }
+  }
+}

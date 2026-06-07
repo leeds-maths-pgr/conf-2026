@@ -1,0 +1,7 @@
+{{ define "main" }}
+<section class="content">
+  {{ .Content }} {{ partial "timetable.html" . }}
+  <br />
+  {{ partial "talks.html" . }}
+</section>
+{{ end }}

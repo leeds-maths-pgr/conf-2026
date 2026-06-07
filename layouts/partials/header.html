@@ -1,0 +1,27 @@
+<header class="page">
+  <h1 class="title">
+    {{ if .IsHome }}
+    <span class="line">{{ .Site.Title }} 2025</span>
+    {{ else }}
+    <span class="line">SoM PGR 2025 - {{ .Title }}</span>
+    {{ end }}
+  </h1>
+  <div id="nav-border" class="container">
+    <nav
+      id="nav"
+      class="nav justify-content-center"
+      aria-label="navigation menu"
+    >
+      <li role="none">
+        <a role="menuitem" aria-haspopup="false" href="/">Back to PGR site</a>
+      </li>
+      {{ range .Site.Menus.main }}
+      <li role="none">
+        <a role="menuitem" aria-haspopup="false" href="{{ .URL }}"
+          >{{ .Name }}</a
+        >
+      </li>
+      {{ end }}
+    </nav>
+  </div>
+</header>

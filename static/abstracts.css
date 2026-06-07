@@ -1,0 +1,21 @@
+details {
+  > div {
+    margin-top: 1ex;
+    white-space: pre-line;
+  }
+  > summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #800080;
+  }
+}
+
+.poster-title {
+  font-weight: bold;
+  color: #800080;
+}
+
+h4,
+.pink {
+  color: #aa336a;
+}
